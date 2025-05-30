@@ -80,6 +80,32 @@ The Original V1 board was upgraded to use 128Gb of 18866 Mhz ECC ram.
 After upgrading to bios 3.96 and ME8, it would not boot with this ram. After changing back to original 1600Mhz ECC ram it would boot. 
 From there after several checks, the V2 processor was installed and found it would boot with either. 
 
+
+### Other information to be found
+Serial number can be found in the UEFI tool or HxD if you didnt note it down before bricking your machine. Or if you cant recover a good bios and want to start with another from somewhere else. 
+- setup and read the chip to get what is currently on the bios chip.
+- Open UEFI tool and the downloaded .bin file
+- opened hex editor for the padding section under BIOS region, the serial number is against 1DE0 line (offset `0x1DE0`), it is there, just need to look for it.
+  
+![image](https://github.com/user-attachments/assets/2621d22b-d56a-4754-a8ab-aac4b514cecf)
+
+![image](https://github.com/user-attachments/assets/3d4a93db-41f4-4f4c-a5d7-c44625e98eb1)
+
+- MAC address is in similar spot (right above) in the Bios padding at line 1DD0
+  
+![image](https://github.com/user-attachments/assets/9bdad568-34f2-428c-a768-ea5af49ba26f)
+
+Or if needing to chanve them you can open HxD, search and change the relevant bits if needed. 
+- Serial number is at line 00511DF0
+  
+![image](https://github.com/user-attachments/assets/56d90fe7-3627-4b9b-987c-eedcf4a212f3)
+
+- MAC is at line 00511DDE0
+  
+![image](https://github.com/user-attachments/assets/09d362a7-c28f-4c07-a585-159f76686b9e)
+
+See "Bios update with HxD" for more info. 
+
 ### Utilities Used
 Hex editor HxD. 
 UEFITool.
