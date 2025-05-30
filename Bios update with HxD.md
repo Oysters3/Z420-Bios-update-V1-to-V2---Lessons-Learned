@@ -67,7 +67,7 @@
 
 ---
 
-## **Visual Example (Boot Block Replacement)**
+## **Example (Boot Block Replacement)**
 
 1. **In donor file:**
     
@@ -82,4 +82,4 @@
     - `Ctrl+V`
         
 3. **Save as new file.**
-    
+    Do the same with ME but for region 0x005000 to 0x50FFFF
