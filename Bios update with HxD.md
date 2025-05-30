@@ -49,7 +49,12 @@
 ## **6. Save the Modified File**
 
 - Save the modified BIOS dump under a new name (e.g., `mydump_mod.bin`) to preserve your original backup.
-    
+
+## **7. Rinse and repeat**
+- Do the same for the ME region if required.
+
+## **8. Flash Bios Chip**
+- Follow The guide to flash new .bin to bios chip on your motherboard. 
 
 ## **Quick Reference Table**
 
@@ -63,6 +68,7 @@
 - **Always keep a backup** of your original dump.
 - Use the **“Go To” (Ctrl+G)** and **“Select Block” (Ctrl+E)** features for precision in HxD.
 - Make sure the donor region is from a compatible source (same board family and version).
+- This doesnt change the MAC or Serial number, they are kept elsewhere in the .bin file, specifically between 511DDO and 511E00. The Mac first, then followed by the serial number. 
     
 
 ---
