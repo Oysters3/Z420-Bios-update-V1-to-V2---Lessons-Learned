@@ -95,7 +95,7 @@ Serial number can be found in the UEFI tool or HxD if you didnt note it down bef
   
 ![image](https://github.com/user-attachments/assets/9bdad568-34f2-428c-a768-ea5af49ba26f)
 
-Or if needing to chanve them you can open HxD, search and change the relevant bits if needed. 
+Or if needing to change them you can open HxD, search and change the relevant bits if needed. 
 - Serial number is at line 00511DF0
   
 ![image](https://github.com/user-attachments/assets/56d90fe7-3627-4b9b-987c-eedcf4a212f3)
