@@ -17,7 +17,9 @@ Here is my own account and findings, some of which are basics I wish I had figur
 
 Alot of great work and information is already available which helped me immensely. Highly recommend reading through he below. Shout out to these two in particular:
 
-[https://github.com/SuperThunder/HP_Z420_Z620_Z820_BootBlock_Upgrade](https://github.com/SuperThunder/HP_Z420_Z620_Z820_BootBlock_Upgrade) [https://github.com/bibikalka1/HP_Z420_Z620_Z820_BOOTBLOCK2013_BIOS_mod](https://github.com/bibikalka1/HP_Z420_Z620_Z820_BOOTBLOCK2013_BIOS_mod)
+[https://github.com/SuperThunder/HP_Z420_Z620_Z820_BootBlock_Upgrade](https://github.com/SuperThunder/HP_Z420_Z620_Z820_BootBlock_Upgrade) 
+
+[https://github.com/bibikalka1/HP_Z420_Z620_Z820_BOOTBLOCK2013_BIOS_mod](https://github.com/bibikalka1/HP_Z420_Z620_Z820_BOOTBLOCK2013_BIOS_mod)
 
 I was new to this, so apologies to veterans for stating the obvious (and probably basic knowledge I did not have) this may help the next person. 
 
@@ -81,4 +83,6 @@ From there after several checks, the V2 processor was installed and found it wou
 ### Utilities Used
 Hex editor HxD. 
 UEFITool.
-Rasperry Pi with Pi OS and FlashRom installed + SOIC clip and wires as described in walk though linked above. 
+Rasperry Pi with Pi OS and FlashRom installed + SOIC clip and wires as described in walk though linked above by SuperThunder. 
+
+
