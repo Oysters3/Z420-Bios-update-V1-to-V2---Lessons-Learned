@@ -44,7 +44,7 @@ I was new to this, so apologies to veterans for stating the obvious (and probabl
 - If using a USB to flash via bios utility, it is recommended to use an older/smaller stick, partition to 512Mb and Fat32 and have nothing else on it. 
 
 - If using a raspberry Pi to read/write to Bios chip:
-	- minimise connections through a breadboard. Get M-F wires and connect SOIC cable directly to Raspberry Pi pins. I only used a breadboard for some of the power. Less connections that wiggle around the better especially with data transfer. 
+	- minimise connections through a breadboard. Get Male-Female DuPont wires and connect SOIC cable directly to Raspberry Pi pins. I only used a breadboard for some of the power. Less connections that wiggle around the better especially with data transfer. 
 	- During read/writes I lost connection to the chip, it was not moved or nudged. The clips are finicky. 
 	- Good power supply for the Pi, minimum 2.5A @ 5V. mine failed to write and verify using a 2.5A power source, changed to 3A and it worked. 
 	- There is some draw/absorption through the motherboard, hence needing a slightly bigger supply I think, other option is to de-solder chip or one of its legs...
@@ -109,6 +109,6 @@ See "Bios update with HxD" for more info.
 ### Utilities Used
 Hex editor HxD. 
 UEFITool.
-Rasperry Pi with Pi OS and FlashRom installed + SOIC clip and wires as described in walk though linked above by SuperThunder. 
+Rasperry Pi with Pi OS and FlashRom installed + SOIC clip and DuPont wires as described in walk though linked above by SuperThunder. 
 
 
