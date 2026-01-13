@@ -9,6 +9,7 @@ Update from early version such as 1.03 to 1.23 is fine. Then update ME FIRST bef
 
 Ram: V1 board upgraded to V2, with a V1 processor wont boot with 1866Mhz ram. I had to change back to 1600Mhz sticks. A V2 chip such as E5-2697 will boot with both. 
 
+Also found the system will now boot uefi as a priority from a nvme (samsung 990 pro) mounted on a pcie adapter card. 
 
 ### Learnings
 
